@@ -46,7 +46,7 @@
 .container {
   width: 95%;
   display: flex;
-  margin-top: 10px;
+  margin-top: 30px;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -57,19 +57,19 @@
   flex-direction: column;
   width: 47.5%;
   padding: 15px;
-  background-color: rgb(50, 195, 205);
-}
-
-.remove {
   background-color: rgb(235, 103, 80);
 }
 
+.remove {
+  background-color: rgb(90, 172, 68);
+}
+
 .dragactive {
-  background-color: rgb(0, 221, 236);
+  background-color: rgb(255, 38, 0);
 }
 
 .dragcomplete {
-  background-color: rgb(255, 38, 0);
+  background-color: rgb(90, 201, 60);
 }
 
 .todos__heading {
